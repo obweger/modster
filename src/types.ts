@@ -1,9 +1,10 @@
 export interface Config {
     packageManager: string;
     extensions: string[];
+    parser?: string;
     sourceFolder: string;
     plugins: string[];
-    postUpdateCommands?: (
+    postUpdateTasks?: (
         updatedFiles: string[],
     ) => {
         name: string;
@@ -12,14 +13,14 @@ export interface Config {
 }
 
 export interface Codemod {
-    filename: string;
+    filename: () => string;
     title?: string;
-    questions?: () => { type: string }[];
-    transformAnswers?: (answers: Record<string, unknown>) => Record<string, unknown>;
-    description: string;
+    description?: string;
+    questions?: (config: Config) => { type: string }[];
+    transformAnswers?: (answers: Record<string, unknown>, config: Config) => Record<string, unknown>;
 }
 
 export interface Plugin {
     title?: string;
-    default: Record<string, Codemod>;
+    codemods: Record<string, Codemod>;
 }
