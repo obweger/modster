@@ -29,7 +29,7 @@ It is important to understand that Modster is really just an abstraction around 
 
 ## Hello World
 
-A great starting point for Modster plugin development is [`modster-plugin-hello-world`](https://github.com/obweger/modster-plugin-hello-world). It's a regular Modster plugin - you can install it right here, right now - but really mainly exists to demostrate how Modster plugins work with a super-simple, minimal example. We'll come back to the `hello-world` plugin in our tutorial below!
+A great starting point for Modster plugin development is [`modster-plugin-hello-world`](https://github.com/obweger/modster-plugin-hello-world). It is a regular Modster plugin - you can install it right here, right now - but really mainly exists to demostrate how Modster plugins work with a super-simple, minimal example. We'll come back to the `hello-world` plugin in our tutorial below!
 
 ## Getting started with your first Modster plugin
 
