@@ -21,7 +21,7 @@ So far, so easy - let's look into writing your own Modster plugin!
 
 ## Writing codemods
 
-It is important to understand that Modster is really just an abstraction around `jscodeshift` - so if you're planning to create a Modster plugin, there's a good chance you will also write the actual codemod implementation (a.k.a. "transform" in `jscodeshift` speak). This is **by far** the hardest part of creating a Modster plugin - but luckily, some very smart people have written some very smart articles to help you getting started. Besides the official `jscodeshift` documentation, the Modster team found these articles helpful:
+It is important to understand that Modster is really just an abstraction around `jscodeshift` - so if you're planning to create a Modster plugin, there's a good chance you will also write the actual codemod implementation (a.k.a. "transform" in `jscodeshift` speak). This is **by far** the hardest part of creating a Modster plugin - but luckily, there are great resources available to help you getting started. Besides the official `jscodeshift` documentation, the Modster team found these articles helpful:
 
 - [Writing your very first codemod with jscodeshift](https://medium.com/@andrew_levine/writing-your-very-first-codemod-with-jscodeshift-7a24c4ede31b)
 - [How to write a codemod](https://vramana.github.io/blog/2015/12/21/codemod-tutorial/)
