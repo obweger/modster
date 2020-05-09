@@ -101,7 +101,7 @@ See below for a list of Modster plugins:
 
 | Plugin | Description |
 |-|-|
-| [Hello World](https://github.com/obweger/modster-plugin-hello-world) | A minimal plugin example; mostly a reference for developing new plugins. |
+| [Hello World](https://github.com/obweger/modster-plugin-hello-world) | A minimal plugin example; mostly a reference for [developing new plugins](./docs/developing-plugins/README.md). |
 
 _To add a plugin to this list, please raise a PR._
 
