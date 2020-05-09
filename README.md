@@ -82,7 +82,7 @@ Modster uses a plugin system to consume codemods, similar to how e.g. `eslint` c
 To consume a Modster plugin, you simply install it as an `npm` package, e.g. using `yarn`:
 
 ```shell
-yarn install modster-plugin-hello-world
+$ yarn install modster-plugin-hello-world
 ```
 
 ... and add it to your `.codemods.js`, following the [`eslint`-style plugin naming convention](https://github.com/obweger/plugin-name-to-package-name):
