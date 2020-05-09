@@ -55,4 +55,4 @@ When running Modster, this plugin should show up in the codemod selection step; 
 
 ![Modster plugin without codemods](./../../assets/plugin-without-codemods.png)
 
-This arguably doens't make a huge amount of sense - but good news! Your plugin has been successfully picked up by Modster, and we can move on to [writing our first codemod description](./02-codemod-descriptions.md)!
+This in itself arguably doens't make a huge amount of sense - but good news! Your plugin has been successfully picked up by Modster, and we can move on to [writing our first codemod description](./02-codemod-descriptions.md)!

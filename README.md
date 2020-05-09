@@ -85,7 +85,7 @@ To consume a Modster plugin, you simply install it as an `npm` package, e.g. usi
 yarn install modster-plugin-hello-world
 ```
 
-... and add it to your `.codemods.js`, following the [`eslint`-style plugin name convention](https://github.com/obweger/plugin-name-to-package-name):
+... and add it to your `.codemods.js`, following the [`eslint`-style plugin naming convention](https://github.com/obweger/plugin-name-to-package-name):
 
 ```diff
 module.exports = {
