@@ -37,7 +37,7 @@ Modster is configured via a configuration file, typically named `.codemods.js`. 
 | `packageManager` | `string` | ✅ | Your package manager; typically `yarn` or `npm`. |
 | `sourceDirectory` | `string`   | ✅ | The directory on which you want codemods to operate. You can further limit the scope of a codemod when running Modster. |
 | `extensions` | `string[]` | ✅ | The file extensions you want to run codemods against. Passed to `jscodeshift` as the `--ext` option. |
-| `parser` | `string` | ✅ | The parser to use for parsig source files. One of `babel \| babylon \| flow \| ts \| tsx`. Passed to `jscodeshift` as the `--parser` option. |
+| `parser` | `string` | ✅ | The parser to use for parsing source files. One of `babel \| babylon \| flow \| ts \| tsx`. Passed to `jscodeshift` as the `--parser` option. |
 | `plugins` | `string[]` | ✅ | A list of Modster plugins, following the [`eslint`-style plugin naming convention](https://github.com/obweger/plugin-name-to-package-name). See below for a list of existing plugins and how to create your own plugins. |
 | `postUpdateTasks` | `function` | | A function of the shape `(updatedFiles: string[]) => { name: string; cmd: string }[]`, receiving the list of files modified by a codemod, and return a list of tasks to be executed. Every task has a name (e.g. `prettier`) and a command to be execute (e.g. `yarn run prettier ...`). |
 
