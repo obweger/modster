@@ -1,6 +1,6 @@
 # Modster
 
-> Codemod-ing, the easy way.
+> Codemoding, the easy way.
 
 Modster is a plugin system and CLI for consuming and executing [`jscodeshift`](https://github.com/facebook/jscodeshift) codemods, in a way that is not terrible.
 
